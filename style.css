@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card-main{
+    border: 10px solid #4d2d2d;
+    height: 410px;
+    border-radius: 5px;
+    width: 360px;
+    margin: auto;
+}
+.card-inner{
+    border: 1px solid #ddd;
+}
+.calc-head .result{
+    width: 100%;
+    height: 95px;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: right;
+    padding: 0 2px;
+    letter-spacing: 2px;
+    border-color: #ddd;
+    margin-top: 5px;
+    border-color: transparent;
+    border-bottom: 1px solid #000;
+}
+.calc-head .result:focus{
+    outline: none;
+}
+.card-inner .calc-body{
+    margin: 5px 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 1fr;
+    grid-gap: 3%;
+
+}
+.card-inner .calc-body .btn{
+    font-size: 16px;
+    font-weight: bold;
+    background: #353b48;
+    color: white;
+    height: 50px;
+}
+.card-inner .calc-body .btn:hover{
+    background: #000;
+}
+.card-inner .calc-body .btn-style{
+    background: #1e3799;
+}
+.card-inner .calc-body .btn-style:hover{
+    background: #192a56;
+}
+.card-inner .calc-body .btn-top{
+    background: #e55039;
+}
+.card-inner .calc-body .btn-top:hover{
+    background: #b71540;
+}
+.card-inner .calc-body .btn-equal{
+    background: #f1c40f;
+}
+.card-inner .calc-body .btn-equal:hover{
+    background: #f39c12;
+}
+
